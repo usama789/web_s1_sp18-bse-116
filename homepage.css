@@ -1,0 +1,337 @@
+
+.hori-selector li{
+    display: inline-block;
+    
+    
+}
+
+
+html,body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.nav-item{
+    display: inline-block;
+    margin-left: auto;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-item a:hover{
+        color: white;
+        text-decoration: white underline;
+}
+ .footer-social{
+    color: white;
+}
+#nav-content{
+    background-color: #002366;
+    margin-top: 10px;
+    max-height: 30px;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+/* .icon-cart{
+    justify-content: end;
+} */
+
+.container-1{
+    background-color: #3c5585;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.phone-icon h7{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.social-div{
+    color: white; 
+    margin-right: 10px;
+    padding-top: 8px;
+    padding-left: 8px;  
+}
+
+.features-pos li{
+    margin-right: 0px;
+    margin-left: 10px;
+} 
+.features-pos{
+    /* padding-left: 20px; */
+    /* margin-left: 20px; */
+    display: table-cell;
+}
+.features-nav{
+
+    background-color:#2f446b;
+    margin-top: 0px;
+      
+}
+
+.features-nav h7{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+/* .footer-bottom text{
+    color: white;
+    font-family: 'poppins';
+} */
+
+.container{
+    max-width: 100%;
+}
+
+/* .contact{
+    color: white;
+    font: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-content p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.footer .footer-section .links{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.quick-links-ul{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+/* .footer-section.contact button{
+        border-color: yellow;
+        color: white;
+}
+.phone-icon a{
+    color: white;
+    font-size: 12px;
+    font-family: 'risque';
+    font: bold;
+}
+#logo-search{
+
+    max-height: 40px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+#search-text-input{
+    margin-right: 5px;
+    width: 110px;
+        
+}
+.catagories{
+    margin: 70px 0;;
+}
+.cl-3{
+    min-width: 100px;
+    flex-basis: 30%;
+    margin-bottom: 30px;
+}
+.col-3 .casual{
+    height:193px;
+}
+.col-3 img{
+    width: 100%;
+}
+.catagories .flex-container{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-left: 0px;
+   
+
+}
+/* new footer */
+
+/* .buy{
+    padding-left: 30px;
+} */
+/* .buy h3,p{
+    color: white;
+    font-family: 'ROBOTO';
+
+}
+.quick-links h3{
+        color: white;
+}
+.contact-us h3{
+    color: white;
+}
+.contact-us .btn{
+    color: white;
+    border: 1px solid yellow;
+}
+.footer-bottom{
+    color: white;
+   
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+} */ 
+/* @media(max-width){
+    .tehwar{
+        flex:100%;
+        max-width: 100%;
+    }
+} */
+
+
+
+
+
+
+  /* new page */
+  .container{
+    max-width: 100%;
+}
+
+.main-story{
+    text-decoration: underline darkblue;
+    padding-left: 20px;
+}
+.row{
+    max-width: 100%;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif; */
+}
+.row h6,h7{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.editor-h7{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline darkblue;
+}
+.post-grid p{
+    color: black;
+}
+.post-head{
+    padding-left: 5px;
+    text-decoration: underline darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.post-grid h6:hover{
+        color: blue;
+} 
+.left-box h6 {
+    color: white;
+}
+.main-content{
+    max-width: 100%;
+}
+footer{
+    /* position: fixed; */
+    width: 100%;
+    background-color: rgb(39, 36, 36);
+    height: 50px;
+}
+.footer-content{
+    display: flex;
+}
+.left-box{
+    padding-left: 10px;
+}
+/* .right-box{
+    margin-left: 20px;
+    position: relative;
+    left: 0%;
+    padding-top: 10px;
+    padding-left: 8px;
+    color: cornsilk;
+} */
+.right-box{
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    left: 70%;
+    padding-top: 10px;
+}
+.copyright{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.copyright h6{
+    color: white;
+    padding-top: 13px;
+}
+.nba-1 h4{
+    font-size: small;
+    color: red;
+}
+.nba-1 h3{
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nba-1 p{
+    font-size: small;
+}
+.row a{
+    color:black;
+}
+.fb{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+}
+.insta{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+}
+.twitter{
+    background-color: rgb(72, 181, 218);
+    width: 30px;
+    height: 30px;
+}
+.footer-content h6{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+@media(max-width: 800px){
+        .sport{
+            max-width: 100%;
+        }
+}
+@media(max-width: 300px){
+    .sport{
+        
+        max-width: 20px;
+    }
+}
+
+.navbar .icon-cart{
+    display: flex;
+}
+.post-slider h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline blue;
+    
+}
+.missed{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: blue underline;
+}
+.s-icon{
+    color: white;
+    size: 20px;
+    position: relative;
+    padding-left: 60%;
+}
